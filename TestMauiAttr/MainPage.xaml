@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestMauiAttr.MainPage">
+    <VerticalStackLayout>
+        <Label Text="Hello Donya" FontSize="30" />
+    <Label Text="Hello Donya" FontSize="30" FontFamily="BTitrBold.ttf"/>
+    <Label Text="احمداسدی" FontSize="30" FontFamily="BTitrBold.ttf"/>
+        <Label Text="احمداسدی" FontSize="30" FontFamily="Shab" FontAttributes="Bold"/>
+        <Label Text="احمداسدی" FontSize="30" FontFamily="Shab" FontAttributes="Bold"/>
+        <Image>
+            <Image.Source>
+                <FontImageSource FontFamily="face" Glyph="&#xE803;" Size="100" Color="Red"/>
+                <!--<FontImageSource FontFamily="Face" Glyph="&#xE801;" Size="50" Color="Red"/>
+                <FontImageSource FontFamily="Face" Glyph="&#xE800;" Size="50" Color="Red"/>
+                <FontImageSource FontFamily="Face" Glyph="&#xE800;" Size="50" Color="Red"/>
+                <FontImageSource FontFamily="Face" Glyph="&#xE800;" Size="50" Color="Red"/>
+                <FontImageSource FontFamily="Face" Glyph="&#xE800;" Size="50" Color="Red"/>
+                <FontImageSource FontFamily="Face" Glyph="&#xE800;" Size="50" Color="Red"/>-->
+
+
+
+
+            </Image.Source>
+        </Image>
+
+    </VerticalStackLayout>
+
+</ContentPage>
